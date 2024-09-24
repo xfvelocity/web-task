@@ -1,0 +1,44 @@
+.shopping-item {
+  padding: 20px 15px;
+  background: rgb(247, 247, 247);
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  &-quantity {
+    position: absolute;
+    right: -7px;
+    top: -10px;
+
+    background: #006fd7;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+
+  button {
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  &-add {
+    background: #006fd7;
+  }
+
+  &-remove {
+    background: rgb(176, 0, 0);
+  }
+}

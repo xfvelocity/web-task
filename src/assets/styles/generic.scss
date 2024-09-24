@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+.hover {
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.max-width {
+  max-width: 950px;
+  margin: 10px auto;
+}
+
+.list {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr;
+  width: 100%;
+  padding: 20px;
+
+  @media (min-width: 850px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,30 @@
+.navigation {
+  border-bottom: 1px solid rgb(240, 240, 240);
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.02);
+  width: 100%;
+  padding: 10px;
+
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-item {
+    background: rgb(245, 245, 245);
+    border-radius: 50%;
+    padding: 8px;
+    position: relative;
+
+    &-badge {
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      background: #006fd7;
+      color: white;
+      padding: 3px 5px;
+      border-radius: 50%;
+      font-size: 10px;
+    }
+  }
+}
